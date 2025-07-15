@@ -1,7 +1,14 @@
 body {
-   
-    background-color: aquamarine;
+   background-image: linear-gradient(to bottom, rgb(10, 4, 83), rgb(11, 67, 189), rgb(51, 0, 43), rgb(17,1,17)); 
+   height: 200px;   
+    margin: 200px;
+    padding: 200px;
+    font-family: Arial, sans-serif;          
+
+
+
 }
+
 
 .container{
     display: grid;
@@ -17,10 +24,10 @@ body {
 }
 
 div{
-  background-color: blueviolet;
-  border-radius: 10%;
+  background-color: rgb(235, 133, 218);
+  border-radius: 20px;
   border: 5px 5px 5px 5px black;
-  box-shadow: 50px black;
+  box-shadow: 50px rgb(0, 0, 0);
   height: 25rem ;
   width: 25rem;
 }
@@ -29,4 +36,24 @@ footer{
     position: absolute;
     bottom: 4%;
     
+}
+h2{
+  color:rgb(3, 0, 0);
+  text-align: center;
+  margin: 20px;
+  padding: 0;
+  font-family: 
+}
+label{
+  color:rgb(7, 0, 0);
+  text-align: center;
+  margin: 1rem;
+  padding: 0;
+  font-family: 
+  sans-serif;
+  font-size: 2rem;
+}
+#name{
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
 }
